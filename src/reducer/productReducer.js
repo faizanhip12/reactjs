@@ -9,7 +9,7 @@ const productReducer = (state, action) => {
 
         case "SET_API_DATA":
             const featureData = action.payload.filter((curElem) => {
-                console.log("llllllllllllllllllllllllllllllll", curElem)
+                // console.log("llllllllllllllllllllllllllllllll", curElem)
                 return curElem.featured === true
             })
             return {
